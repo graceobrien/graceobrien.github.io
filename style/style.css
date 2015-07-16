@@ -2,34 +2,35 @@
 @import url(http://fonts.googleapis.com/css?family=Syncopate:400,700);
 
 body {
-  background-image: #EDFFFA;
-  background-color: #EDFFFA;
-  color:#686868;
+
+  background-color: #424242;
+  color: #FFFFFF;
   font-family: 'Raleway', Helvetica;
   font-size: 12pt;
-  padding: 40px 40px 40px 60px;
+  padding: 0px 0px 0px 0px;
   margin: 40px;
 }
 header {
   background: url('../images/coverphoto.JPG');
   background-size: cover;
-  padding: 0px 0px 20px 0px;
+  border: #757575;
+  padding: 0px 0px 10px 0px;
   text-align: center;
-  border-radius: 20px;
-  box-shadow: 10px 10px 10px;
+  border-radius: 3px;
 }
 h1 {
-  color: #0E424C;
+  color: #F44336;
   font-family: 'Raleway', Helvetica;
-  font-size: 24pt;
+  font-size: 30pt;
   padding: 20px;
 }
+
 h2, h3, h4 {
-  color: #0E424C;
+  color: #42A5F5;
 }
 
 a {
-  color: #0E424C;
+  color: #FFD54F;
   text-decoration: none;
 }
 a hover {
@@ -37,4 +38,14 @@ a hover {
 }
 img {
   border-radius: 50%;
+}
+button {
+  color: #F44336;
+  font-family: 'Raleway', Helvetica;
+  font-size: 12pt;
+}
+questions {
+      margin: 5px;
+      width: 167px;
+      height: 22px;
 }
